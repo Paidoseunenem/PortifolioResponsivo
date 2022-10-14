@@ -1,0 +1,44 @@
+.Texto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  /* background: linear-gradient(	#7fb683d5, #cecf8a, #db7878) ; */
+  transform: rotate(180deg);
+  width: 45vw;
+  margin: 0 15vw;
+  animation: balaozada 7s linear 0s 1 forwards ;
+}
+.balao {
+  height: 250px;
+  width: 100%;
+}
+
+/* .Texto2{
+    border: 2px solid rgb(0, 0, 0);
+    height: 150px;
+    width: 1000px;
+    background: linear-gradient(	#7fb683d5, #cecf8a, #db7878) ;
+} */
+.Apresentacao {
+  position: absolute;
+  transform: rotate(180deg);
+  width: 70%;
+  top: 25px;
+}
+ 
+a {
+    color: black;
+}
+
+@keyframes balaozada {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

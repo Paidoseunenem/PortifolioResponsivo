@@ -1,0 +1,173 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(	#1ebe2bd5, #fbff19, #f31111);
+
+}
+
+h1 {
+  font-size: 20px;
+  /* text-shadow: 1px 1px 1px #fff, -1px -1px 1px #fff, -1px 1px 1px #fff, 1px -1px 1px #fff; */
+  padding: 0.5em;
+  color: #fff;
+}
+
+h3 {
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #fff, -1px -1px 1px #fff, -1px 1px 1px #fff, 1px -1px 1px #fff;
+}
+h2{
+  font-size: 20px;
+  color: #fff;
+  /* text-shadow: 1px 1px 1px #fff, -1px -1px 1px #fff, -1px 1px 1px #fff, 1px -1px 1px #fff; */
+}
+
+.NaveBar {
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.DivPerfil {
+  
+  height: 20rem;
+  width: 20rem;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+
+.Perfil {
+  border-radius: 50%;
+  height: 230px;
+  width: 230px;
+  margin: 0 auto;
+  align-self: center;
+
+
+
+}
+
+.Git {
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+
+
+.Linke {
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ .Bong {
+  position: absolute;
+  right: 155px;
+  top: -5%;
+  transform: translate(50%, -50%);
+}
+
+
+.Panda {
+  height: 50px;
+}
+
+.chuvaverde0 {
+  height: auto;
+  width: 100%;
+  transform: translateY(-50px);
+  display: flex;
+}
+
+.chuvaverde-1 {
+  height: auto;
+  width: 100%;
+  transform: translateY(-100px);
+  display: flex;
+}
+
+.chuvaverde1 {
+  height: auto;
+  width: 100%;
+
+  display: flex;
+}
+
+.chuvaverde2 {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+}
+
+
+.ef1 {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 200px;
+  margin-right: 40px;
+
+}
+
+.Adoro {
+  height: 80px;
+  width: 80px;
+  animation: folha1 5s linear 0ms 1 forwards;
+}
+
+.Adoro2 {
+  height: 80px;
+  width: 80px;
+  margin-top: 40px;
+  animation: folha2 4000ms linear 0ms 1 forwards;
+
+}
+
+.chuvaboa {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  transform: translateY(-300px);
+}
+
+@keyframes folha1 {
+  80% {
+    opacity: 1;
+  }
+
+  99% {
+    transform: translate(0px, calc(100vh - 80px)) rotate(700deg);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes folha2 {
+  80% {
+    opacity: 1;
+  }
+
+  99% {
+    transform: translate(0px, calc(100vh - 120px)) rotate(700deg);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
